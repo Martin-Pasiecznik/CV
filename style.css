@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: #240229;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.imagen{
+    width: 200px;
+    height: 200px;
+}
+
+
+.imagen img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 20% 10%;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.botones a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.botones a:hover{
+    color: 			#E6E6FA;
+}
