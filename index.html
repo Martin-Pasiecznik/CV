@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pasiecznik Martin</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
 
-  <body>
-    <div class="imagen">
-      <img src="mar.jpg" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pasiecznik Martin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="img-container">
+      <img src="img/mar.jpg">
     </div>
-
-    <div class="botones">
+    <div class="menu">
+      <h1>Mis Proyectos</h1>
+      <a href="https://martin-pasiecznik.github.io/Quiz-Game/">Quiz Game</a>
+      <a href="https://martin-pasiecznik.github.io/ArquitecturA/">ArquitecturA</a>
       <a href="https://github.com/Martin-Pasiecznik">Git Hub</a>
-      <a
-        href="https://codesandbox.io/dashboard/home?workspace=63125f23-b19f-40ac-bb1f-64373457069a">Code Sandbox</a>
     </div>
-  </body>
+    <div class="saber-mas">Conocimientos</div>
+  </header>
+
+  <article>
+    <div class="container-img revelar">
+      <img class="img1" src="img/img1.png" alt="imagen">
+      <img class="img2" src="img/img2.png" alt="imagen">
+      <img class="img3" src="img/img3.png" alt="imagen">
+    </div>
+  </article>
+
+  <div class="saber-mas">Contacto</div>
+  <footer>
+
+    <form action="https://formsubmit.co/93097914ae3ab18e790dd674bc109de3" method="POST">
+      <input type="email" name="email" required placeholder="Email">
+      <input type="text" name="nombre" required placeholder="Nombre">
+      <input type="text" name="mensaje" placeholder="Mensaje" required> 
+      <input type="hidden" name="_subject" value="Correo de Portfolio">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/trabajos%20html/CV/index.html">
+      <button type="submit">Enviar</button>
+ </form>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
