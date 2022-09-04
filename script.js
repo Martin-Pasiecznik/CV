@@ -15,3 +15,10 @@ function revelarLogo() {
         }
     }
 }
+
+const btn = document.getElementById("btn");
+
+btn.addEventListener('click', btnOn)
+function btnOn(){
+    alert("Asegurate de que todos tus datos sean correctos para que pueda darte una respuesta. Una vez clickeado esta alerta, el mensaje se enviará.")
+}
